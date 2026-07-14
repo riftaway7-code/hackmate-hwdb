@@ -1,4 +1,5 @@
 device: <vendor + model, e.g. ThinkPad T480>
+feature: <full build / already formatted / repair efi / no usb / dual boot / efi health check>
 submitted by: <your github username or reddit handle, optional>
 date: <yyyy-mm-dd>
 

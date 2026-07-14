@@ -1,0 +1,28 @@
+device: MacBookPro16,1
+feature: full (dual boot: linux)
+submitted by: (auto-submitted, opt-in)
+date: 2026-07-14
+
+--- hardware ---
+cpu: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz
+cpu_generation: 11
+cpu_codename: Tiger Lake
+platform: laptop
+
+igpu: Intel Corporation TigerLake-LP GT2
+dgpu: NVIDIA Corporation GA107M (nvidia)
+
+audio_codec: Realtek ALC285
+ethernet_chipset: rtl8111
+wifi_chipset: realtek
+
+touchpad_type: n/a
+nvme: yes
+thunderbolt: yes
+
+--- result ---
+hackmate_version: v2.0.0
+macos_version: macOS Sequoia (15)
+worked: build completed
+issues: none
+notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

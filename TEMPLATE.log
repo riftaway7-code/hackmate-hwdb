@@ -1,0 +1,27 @@
+device: <vendor + model, e.g. ThinkPad T480>
+submitted by: <your github username or reddit handle, optional>
+date: <yyyy-mm-dd>
+
+--- hardware ---
+cpu: <full cpu name, e.g. Intel Core i5-8350U>
+cpu_generation: <e.g. 8>
+cpu_codename: <e.g. Kaby Lake-R>
+platform: <laptop / desktop>
+
+igpu: <e.g. Intel UHD 620>
+dgpu: <e.g. none, or Nvidia MX150 / AMD RX 6600>
+
+audio_codec: <e.g. ALC257>
+ethernet_chipset: <e.g. Intel I219-V>
+wifi_chipset: <e.g. Intel AC 8265>
+
+touchpad_type: <ps2 / i2c-elan / i2c-hid / rmi / precision>
+nvme: <yes / no>
+thunderbolt: <yes / no>
+
+--- result ---
+hackmate_version: <e.g. v2.0.0>
+macos_version: <e.g. Sonoma>
+worked: <yes / no / partial>
+issues: <anything broken — wifi, audio, sleep/wake, boot hangs, etc. "none" if clean>
+notes: <anything else worth knowing, workarounds you had to apply, etc>

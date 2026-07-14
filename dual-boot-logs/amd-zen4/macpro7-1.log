@@ -1,23 +1,23 @@
-device: MacBookPro15,2
-feature: no_usb
+device: MacPro7,1
+feature: skip_format (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-14
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
-cpu_generation: 8
-cpu_codename: Kaby Lake-R
-platform: laptop
+cpu: AMD Ryzen 7 7800X3D 8-Core Processor
+cpu_generation: 12
+cpu_codename: Zen 4
+platform: desktop
 
-igpu: Intel Corporation Sunrise Point-LP Integrated Sensor Hub
+igpu: AMD Radeon(TM) Graphics
 dgpu: none
 
-audio_codec: Realtek ALC3253
-ethernet_chipset: 
-wifi_chipset: atheros
+audio_codec: Steam Streaming Microphone
+ethernet_chipset: rtl8111
+wifi_chipset: realtek
 
 touchpad_type: n/a
-nvme: no
+nvme: yes
 thunderbolt: no
 
 --- result ---

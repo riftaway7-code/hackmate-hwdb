@@ -1,7 +1,7 @@
 device: MacBookPro15,2
 feature: full
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-15
+date: 2026-07-16
 
 --- hardware ---
 cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
@@ -12,17 +12,32 @@ platform: laptop
 igpu: Intel(R) UHD Graphics 620
 dgpu: none
 
-audio_codec: Sonido Intel(R) para pantallas
-ethernet_chipset: rtl8111
-wifi_chipset: realtek
+audio_codec: Intel(R) 顯示器音效
+ethernet_chipset: 
+wifi_chipset: atheros
 
-touchpad_type: ps2
+touchpad_type: i2c
 nvme: no
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
-worked: build completed
-issues: none
+macos_version: macOS Ventura (13)
+worked: build failed
+issues: diskpart failed (code 2147942487):
+Microsoft DiskPart 版本 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+在電腦: DESKTOP-T7D9LSB
+
+磁碟 2 是所選擇的磁碟。
+
+DiskPart 成功地清理了磁碟。
+
+DiskPart 成功地建立了指定的磁碟分割。
+
+磁碟分割 1 是所選擇的磁碟分割。
+
+沒有選擇磁碟區。
+請選擇一個磁碟區然後再試一次。
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

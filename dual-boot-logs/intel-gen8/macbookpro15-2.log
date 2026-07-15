@@ -1,5 +1,5 @@
 device: MacBookPro15,2
-feature: no_usb (dual boot: windows)
+feature: full (dual boot: both)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-14
 
@@ -12,7 +12,7 @@ platform: laptop
 igpu: Intel(R) UHD Graphics 620
 dgpu: none
 
-audio_codec: Realtek
+audio_codec: 
 ethernet_chipset: i219
 wifi_chipset: intel
 

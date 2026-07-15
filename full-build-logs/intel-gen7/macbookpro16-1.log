@@ -9,20 +9,35 @@ cpu_generation: 7
 cpu_codename: Kaby Lake
 platform: laptop
 
-igpu: Intel Corporation HD Graphics 620
-dgpu: Advanced Micro Devices, Inc. (amd)
+igpu: Intel(R) HD Graphics 620
+dgpu: none
 
-audio_codec: Realtek ALC3246
-ethernet_chipset: rtl8111
+audio_codec: Sonido Intel(R) para pantallas
+ethernet_chipset: 
 wifi_chipset: intel
 
-touchpad_type: n/a
+touchpad_type: i2c
 nvme: no
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
 macos_version: macOS Sonoma (14)
-worked: build completed
-issues: none
+worked: build failed
+issues: diskpart failed (code 2147942487):
+Microsoft DiskPart versi¢n 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+En el equipo: DESKTOP-5TVBHS0
+
+El disco 1 es ahora el disco seleccionado.
+
+DiskPart ha limpiado el disco satisfactoriamente.
+
+DiskPart ha creado satisfactoriamente la partici¢n especificada.
+
+La partici¢n 1 es ahora la partici¢n seleccionada.
+
+No hay un volumen seleccionado.
+Seleccione un volumen e int‚ntelo de nuevo.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

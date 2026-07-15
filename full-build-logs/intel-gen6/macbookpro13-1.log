@@ -4,7 +4,7 @@ submitted by: (auto-submitted, opt-in)
 date: 2026-07-14
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+cpu: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
 cpu_generation: 6
 cpu_codename: Skylake
 platform: laptop
@@ -13,31 +13,16 @@ igpu: Intel(R) HD Graphics 520
 dgpu: none
 
 audio_codec: Realtek
-ethernet_chipset: i219
+ethernet_chipset: 
 wifi_chipset: intel
 
-touchpad_type: ps2
+touchpad_type: i2c
 nvme: no
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Monterey (12)
+macos_version: macOS Ventura (13)
 worked: build failed
-issues: diskpart failed after 3 attempts:
-Microsoft DiskPart version 10.0.26100.1150
-
-Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-QN6J37T
-
-Disk 1 is now the selected disk.
-
-DiskPart succeeded in cleaning the disk.
-
-DiskPart succeeded in creating the specified partition.
-
-Partition 1 is now the selected partition.
-
-There is no volume selected.
-Please select a volume and try again.
+issues: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

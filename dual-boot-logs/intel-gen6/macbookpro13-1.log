@@ -1,19 +1,19 @@
 device: MacBookPro13,1
-feature: no_usb (dual boot: linux)
+feature: full (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-14
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
 cpu_generation: 6
 cpu_codename: Skylake
 platform: laptop
 
-igpu: Intel Corporation Skylake-U GT2
+igpu: Intel(R) HD Graphics 520
 dgpu: none
 
-audio_codec: 8086:9d70
-ethernet_chipset: i219
+audio_codec: Realtek
+ethernet_chipset: 
 wifi_chipset: intel
 
 touchpad_type: i2c
@@ -23,6 +23,6 @@ thunderbolt: no
 --- result ---
 hackmate_version: v2.0.0
 macos_version: macOS Ventura (13)
-worked: build completed
-issues: none
+worked: build failed
+issues: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

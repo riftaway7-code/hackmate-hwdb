@@ -12,32 +12,17 @@ platform: laptop
 igpu: Intel(R) UHD Graphics 620
 dgpu: none
 
-audio_codec: Intel(R) 顯示器音效
-ethernet_chipset: 
+audio_codec: 
+ethernet_chipset: rtl8111
 wifi_chipset: atheros
 
-touchpad_type: i2c
-nvme: no
+touchpad_type: ps2
+nvme: yes
 thunderbolt: no
 
 --- result ---
-hackmate_version: v2.0.0
+hackmate_version: dev
 macos_version: macOS Ventura (13)
 worked: build failed
-issues: diskpart failed (code 2147942487):
-Microsoft DiskPart 版本 10.0.26100.1150
-
-Copyright (C) Microsoft Corporation.
-在電腦: DESKTOP-T7D9LSB
-
-磁碟 2 是所選擇的磁碟。
-
-DiskPart 成功地清理了磁碟。
-
-DiskPart 成功地建立了指定的磁碟分割。
-
-磁碟分割 1 是所選擇的磁碟分割。
-
-沒有選擇磁碟區。
-請選擇一個磁碟區然後再試一次。
+issues: unsupported operand type(s) for +: 'NoneType' and 'str'
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

@@ -4,24 +4,24 @@ submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: AMD Ryzen 7 7800X3D 8-Core Processor
+cpu: Intel(R) Xeon(R) CPU E3-1230 v6 @ 3.50GHz
 cpu_generation: 12
-cpu_codename: Zen 4
+cpu_codename: Alder Lake
 platform: desktop
 
-igpu: Advanced Micro Devices, Inc.
+igpu: AMD Radeon (TM) R7 350
 dgpu: none
 
-audio_codec: 1022:15e3
-ethernet_chipset: rtl8125
+audio_codec: High Definition Audio Device
+ethernet_chipset: i219
 wifi_chipset: 
 
 touchpad_type: n/a
-nvme: yes
+nvme: no
 thunderbolt: no
 
 --- result ---
-hackmate_version: dev
+hackmate_version: v2.0.0
 macos_version: macOS Tahoe (26)
 worked: build completed
 issues: none

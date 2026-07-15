@@ -1,5 +1,5 @@
 device: MacPro7,1
-feature: full (dual boot: windows)
+feature: full
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
@@ -24,5 +24,14 @@ thunderbolt: no
 hackmate_version: v2.0.0
 macos_version: macOS Tahoe (26)
 worked: build failed
-issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
+issues: diskpart failed after 3 attempts:
+Microsoft DiskPart version 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+On computer: HAL9000
+
+Disk 5 is now the selected disk.
+
+Virtual Disk Service error:
+There is no media in the device.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

@@ -4,19 +4,19 @@ submitted by: (auto-submitted, opt-in)
 date: 2026-07-14
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+cpu: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
 cpu_generation: 8
-cpu_codename: Kaby Lake-R
+cpu_codename: Coffee Lake
 platform: laptop
 
-igpu: Intel Corporation Sunrise Point-LP Integrated Sensor Hub
+igpu: Intel UHD Graphics 620
 dgpu: none
 
-audio_codec: Realtek ALC3253
+audio_codec: 
 ethernet_chipset: 
-wifi_chipset: atheros
+wifi_chipset: 
 
-touchpad_type: n/a
+touchpad_type: i2c
 nvme: no
 thunderbolt: no
 

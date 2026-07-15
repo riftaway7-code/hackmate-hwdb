@@ -1,28 +1,28 @@
 device: MacBookPro16,2
 feature: no_usb
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-14
+date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i7-10810U CPU @ 1.10GHz
+cpu: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 cpu_generation: 10
-cpu_codename: Comet Lake
+cpu_codename: Ice Lake / Comet Lake
 platform: laptop
 
-igpu: Intel(R) UHD Graphics
+igpu: Intel(R) Iris(R) Plus Graphics
 dgpu: none
 
-audio_codec: Realtek
+audio_codec: 
 ethernet_chipset: 
-wifi_chipset: intel
+wifi_chipset: 
 
-touchpad_type: i2c
+touchpad_type: ps2
 nvme: no
-thunderbolt: yes
+thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Yosemite (10.10)
-worked: build failed
-issues: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+macos_version: macOS Tahoe (26)
+worked: build completed
+issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

@@ -1,20 +1,20 @@
 device: MacPro7,1
-feature: full (dual boot: windows)
+feature: full
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: AMD Ryzen 7 7800X3D 8-Core Processor
-cpu_generation: 12
-cpu_codename: Zen 4
+cpu: 13th Gen Intel(R) Core(TM) i5-13500
+cpu_generation: 13
+cpu_codename: Raptor Lake
 platform: desktop
 
-igpu: AMD Radeon(TM) Graphics
+igpu: Intel(R) UHD Graphics 770
 dgpu: none
 
-audio_codec: Steam Streaming Microphone
+audio_codec: USB Audio Device
 ethernet_chipset: rtl8111
-wifi_chipset: realtek
+wifi_chipset: 
 
 touchpad_type: n/a
 nvme: yes
@@ -22,7 +22,7 @@ thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Tahoe (26)
+macos_version: macOS Sequoia (15)
 worked: build failed
-issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
+issues: Drive letter Z: is already in use by another drive on this system (network share, another disk, etc). Free it up — disconnect or unmap whatever's using Z: — then try again.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

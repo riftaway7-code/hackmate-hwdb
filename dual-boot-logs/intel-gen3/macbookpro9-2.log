@@ -1,28 +1,28 @@
-device: MacBookPro16,1
+device: MacBookPro9,2
 feature: skip_format (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
-cpu_generation: 11
-cpu_codename: Tiger Lake
+cpu: Intel Ivy Bridge
+cpu_generation: 3
+cpu_codename: Ivy Bridge
 platform: laptop
 
-igpu: Intel(R) Iris(R) Xe Graphics
+igpu: Auto / same as CPU iGPU
 dgpu: none
 
-audio_codec: Realtek
-ethernet_chipset: i219
-wifi_chipset: intel
+audio_codec: 
+ethernet_chipset: 
+wifi_chipset: 
 
-touchpad_type: i2c
+touchpad_type: ps2
 nvme: yes
-thunderbolt: yes
+thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
+macos_version: macOS Mojave (10.14)
 worked: build failed
 issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

@@ -1,5 +1,5 @@
 device: MacBookPro16,1
-feature: skip_format (dual boot: windows)
+feature: efi_health_check
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
@@ -22,7 +22,7 @@ thunderbolt: yes
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
+macos_version: n/a (existing EFI audit)
 worked: build failed
-issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
+issues: BOOTx64.efi is missing; OpenCore.efi is missing; ACPI table missing: SSDT-PLUG.aml; ACPI table missing: SSDT-GPRW.aml; ACPI table missing: SSDT-EC-USBX.aml; ACPI table missing: SSDT-PNLF.aml; Orphaned ACPI rename: GPRW to XGPR; No USB port map
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

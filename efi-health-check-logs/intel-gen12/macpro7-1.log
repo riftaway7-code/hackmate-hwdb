@@ -1,28 +1,28 @@
-device: MacBookPro15,2
-feature: full
+device: MacPro7,1
+feature: efi_health_check
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
-cpu_generation: 8
-cpu_codename: Coffee Lake
-platform: laptop
+cpu: Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz
+cpu_generation: 12
+cpu_codename: Alder Lake
+platform: desktop
 
-igpu: Intel(R) UHD Graphics 620
+igpu: NVIDIA GeForce GTX 760
 dgpu: none
 
-audio_codec: Sonido Intel(R) para pantallas
+audio_codec: NVIDIA High Definition Audio
 ethernet_chipset: rtl8111
-wifi_chipset: realtek
+wifi_chipset: 
 
-touchpad_type: ps2
+touchpad_type: n/a
 nvme: no
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
-worked: build completed
-issues: none
+macos_version: n/a (existing EFI audit)
+worked: partial
+issues: USB ports are not mapped
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

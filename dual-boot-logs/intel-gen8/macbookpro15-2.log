@@ -1,28 +1,28 @@
 device: MacBookPro15,2
 feature: full (dual boot: both)
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-14
+date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+cpu: Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
 cpu_generation: 8
-cpu_codename: Kaby Lake-R
+cpu_codename: Whiskey Lake
 platform: laptop
 
 igpu: Intel(R) UHD Graphics 620
 dgpu: none
 
-audio_codec: 
+audio_codec: Realtek
 ethernet_chipset: i219
 wifi_chipset: intel
 
-touchpad_type: ps2
+touchpad_type: i2c
 nvme: yes
 thunderbolt: yes
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Tahoe (26)
+macos_version: macOS Sequoia (15)
 worked: build completed
 issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

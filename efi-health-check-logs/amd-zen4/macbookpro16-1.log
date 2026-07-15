@@ -1,28 +1,28 @@
-device: MacBookPro15,2
-feature: full
+device: MacBookPro16,1
+feature: efi_health_check
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
-cpu_generation: 8
-cpu_codename: Coffee Lake
+cpu: AMD Ryzen 7 7735HS with Radeon Graphics
+cpu_generation: 12
+cpu_codename: Zen 4
 platform: laptop
 
-igpu: Intel(R) UHD Graphics 620
+igpu: Advanced Micro Devices, Inc.
 dgpu: none
 
-audio_codec: Sonido Intel(R) para pantallas
-ethernet_chipset: rtl8111
+audio_codec: ATI R6xx HDMI
+ethernet_chipset: 
 wifi_chipset: realtek
 
-touchpad_type: ps2
-nvme: no
+touchpad_type: n/a
+nvme: yes
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
-worked: build completed
-issues: none
+macos_version: n/a (existing EFI audit)
+worked: build failed
+issues: Orphaned ACPI rename: OSID to XSID; No USB port map
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

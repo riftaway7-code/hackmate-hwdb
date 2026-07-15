@@ -1,7 +1,7 @@
 device: MacBookPro13,1
 feature: skip_format
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-14
+date: 2026-07-15
 
 --- hardware ---
 cpu: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
@@ -22,7 +22,7 @@ thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Monterey (12)
-worked: build failed
-issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
+macos_version: macOS Catalina (10.15)
+worked: build completed
+issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

@@ -1,28 +1,28 @@
-device: MacBookPro15,2
-feature: full
+device: MacPro7,1
+feature: full (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
-cpu_generation: 8
-cpu_codename: Coffee Lake
-platform: laptop
+cpu: 13th Gen Intel(R) Core(TM) i5-13500
+cpu_generation: 13
+cpu_codename: Raptor Lake
+platform: desktop
 
-igpu: Intel(R) UHD Graphics 620
+igpu: Intel(R) UHD Graphics 770
 dgpu: none
 
-audio_codec: Sonido Intel(R) para pantallas
+audio_codec: USB Audio Device
 ethernet_chipset: rtl8111
-wifi_chipset: realtek
+wifi_chipset: 
 
-touchpad_type: ps2
-nvme: no
+touchpad_type: n/a
+nvme: yes
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sequoia (15)
+macos_version: macOS Tahoe (26)
 worked: build completed
 issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

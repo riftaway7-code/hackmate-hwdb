@@ -1,28 +1,28 @@
 device: MacPro7,1
-feature: full (dual boot: windows)
+feature: full
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: AMD Ryzen 7 7800X3D 8-Core Processor
+cpu: Intel(R) Xeon(R) CPU E3-1230 v6 @ 3.50GHz
 cpu_generation: 12
-cpu_codename: Zen 4
+cpu_codename: Alder Lake
 platform: desktop
 
-igpu: AMD Radeon(TM) Graphics
+igpu: AMD Radeon (TM) R7 350
 dgpu: none
 
-audio_codec: Steam Streaming Microphone
-ethernet_chipset: rtl8111
-wifi_chipset: realtek
+audio_codec: High Definition Audio Device
+ethernet_chipset: i219
+wifi_chipset: 
 
 touchpad_type: n/a
-nvme: yes
+nvme: no
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
 macos_version: macOS Tahoe (26)
 worked: build failed
-issues: GitHub API rate limit exceeded (60 req/hr unauthenticated). Wait ~1 hour and rerun, or set a GITHUB_TOKEN environment variable.
+issues: Could not resolve disk number for drive Z: — the USB may be RAW with no drive letter. Open Disk Management, format the USB as FAT32, then use the 'Already Formatted' button.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

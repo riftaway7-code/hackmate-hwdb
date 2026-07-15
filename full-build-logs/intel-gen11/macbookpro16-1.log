@@ -1,10 +1,10 @@
 device: MacBookPro16,1
 feature: full
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-14
+date: 2026-07-15
 
 --- hardware ---
-cpu: 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+cpu: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
 cpu_generation: 11
 cpu_codename: Tiger Lake
 platform: laptop
@@ -22,7 +22,13 @@ thunderbolt: yes
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Tahoe (26)
+macos_version: macOS Sequoia (15)
 worked: build failed
-issues: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+issues: diskpart failed after 3 attempts:
+n at the specified size and offset. Specify 
+different size and offset values or don't specify either to create the 
+maximum sized partition. It may be that the disk is partitioned using the MBR disk 
+partitioning format and the disk contains either 4 primary partitions, (no 
+more partitions may be created), or 3 primary partitions and one extended 
+partition, (only logical drives may be created).
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

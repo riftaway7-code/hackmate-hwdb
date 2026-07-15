@@ -1,28 +1,28 @@
-device: MacBookPro16,2
-feature: full
+device: MacBookPro13,1
+feature: no_usb
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz
-cpu_generation: 10
-cpu_codename: Comet Lake
+cpu: Intel Skylake
+cpu_generation: 6
+cpu_codename: Skylake
 platform: laptop
 
-igpu: Intel Corporation CometLake-U GT2
+igpu: Auto / same as CPU iGPU
 dgpu: none
 
-audio_codec: Realtek ALC257
-ethernet_chipset: i219
+audio_codec: 
+ethernet_chipset: 
 wifi_chipset: 
 
-touchpad_type: i2c
+touchpad_type: ps2
 nvme: yes
-thunderbolt: yes
+thunderbolt: no
 
 --- result ---
-hackmate_version: dev
-macos_version: macOS Sequoia (15)
+hackmate_version: v2.0.0
+macos_version: macOS Ventura (13)
 worked: build completed
 issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

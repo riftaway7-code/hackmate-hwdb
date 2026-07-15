@@ -1,28 +1,28 @@
 device: MacBookPro16,1
 feature: full
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-15
+date: 2026-07-16
 
 --- hardware ---
-cpu: AMD Ryzen 7 5700U with Radeon Graphics
+cpu: AMD Ryzen 5 5625U with Radeon Graphics
 cpu_generation: 11
 cpu_codename: Zen 3
 platform: laptop
 
-igpu: AMD (0x1002)
+igpu: AMD Radeon (TM) Graphics
 dgpu: none
 
-audio_codec: 
-ethernet_chipset: 
-wifi_chipset: 
+audio_codec: AMD High Definition Audio Device
+ethernet_chipset: rtl8111
+wifi_chipset: intel
 
-touchpad_type: i2c
-nvme: no
+touchpad_type: n/a
+nvme: yes
 thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Sonoma (14)
-worked: build completed
-issues: none
+macos_version: macOS Sequoia (15)
+worked: build failed
+issues: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

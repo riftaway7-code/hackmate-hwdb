@@ -1,10 +1,10 @@
 device: MacBookPro16,2
-feature: full (dual boot: both)
+feature: full (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: 13th Gen Intel(R) Core(TM) i5-1334U
+cpu: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
 cpu_generation: 10
 cpu_codename: Ice Lake / Comet Lake
 platform: laptop
@@ -12,13 +12,13 @@ platform: laptop
 igpu: Intel(R) UHD Graphics
 dgpu: none
 
-audio_codec: Realtek
+audio_codec: Intel(R) Display Audio
 ethernet_chipset: 
-wifi_chipset: realtek
+wifi_chipset: 
 
 touchpad_type: i2c
 nvme: yes
-thunderbolt: no
+thunderbolt: yes
 
 --- result ---
 hackmate_version: v2.0.0

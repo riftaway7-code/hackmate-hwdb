@@ -1,22 +1,22 @@
 device: MacBookPro16,1
-feature: full (dual boot: linux)
+feature: no_usb (dual boot: windows)
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-15
 
 --- hardware ---
-cpu: AMD Ryzen 7 7735HS with Radeon Graphics
+cpu: AMD Ryzen 5 7530U with Radeon Graphics
 cpu_generation: 12
 cpu_codename: Zen 4
 platform: laptop
 
-igpu: Advanced Micro Devices, Inc.
+igpu: AMD Radeon (TM) Graphics
 dgpu: none
 
-audio_codec: ATI R6xx HDMI
-ethernet_chipset: 
-wifi_chipset: realtek
+audio_codec: AMD High Definition Audio Device
+ethernet_chipset: rtl8111
+wifi_chipset: mediatek
 
-touchpad_type: n/a
+touchpad_type: i2c
 nvme: yes
 thunderbolt: no
 

@@ -1,7 +1,7 @@
 device: iMac20,1
 feature: full
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-14
+date: 2026-07-15
 
 --- hardware ---
 cpu: AMD Ryzen 5 3600 6-Core Processor
@@ -22,7 +22,7 @@ thunderbolt: no
 
 --- result ---
 hackmate_version: v2.0.0
-macos_version: macOS Ventura (13)
+macos_version: macOS Big Sur (11)
 worked: build completed
 issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

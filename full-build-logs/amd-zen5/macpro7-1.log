@@ -1,5 +1,5 @@
 device: MacPro7,1
-feature: skip_format (dual boot: windows)
+feature: full
 submitted by: (auto-submitted, opt-in)
 date: 2026-07-16
 
@@ -23,6 +23,6 @@ thunderbolt: no
 --- result ---
 hackmate_version: v2.0.0
 macos_version: macOS Tahoe (26)
-worked: build completed
-issues: none
+worked: build failed
+issues: Could not resolve disk number for drive Z: — the USB may be RAW with no drive letter. Open Disk Management, format the USB as FAT32, then use the 'Already Formatted' button.
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).

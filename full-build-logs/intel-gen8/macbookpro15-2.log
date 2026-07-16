@@ -1,20 +1,20 @@
 device: MacBookPro15,2
 feature: full
 submitted by: (auto-submitted, opt-in)
-date: 2026-07-16
+date: 2026-07-15
 
 --- hardware ---
-cpu: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+cpu: Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz
 cpu_generation: 8
 cpu_codename: Coffee Lake
 platform: laptop
 
-igpu: Intel(R) UHD Graphics 620
+igpu: Intel(R) UHD Graphics 630
 dgpu: none
 
-audio_codec: 
-ethernet_chipset: rtl8111
-wifi_chipset: atheros
+audio_codec: Realtek
+ethernet_chipset: i219
+wifi_chipset: intel
 
 touchpad_type: ps2
 nvme: yes
@@ -22,7 +22,7 @@ thunderbolt: no
 
 --- result ---
 hackmate_version: dev
-macos_version: macOS Ventura (13)
-worked: build failed
-issues: unsupported operand type(s) for +: 'NoneType' and 'str'
+macos_version: macOS Sequoia (15)
+worked: build completed
+issues: none
 notes: auto-submitted at build completion — confirms the EFI/USB was generated without error, does not confirm the machine actually booted macOS successfully (HackMate exits before that point).
